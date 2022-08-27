@@ -1,4 +1,4 @@
-## Important-ML-DS-Facts
+# Important-ML-DS-Facts
 
 This repository contains links to machine/Deep learning, data science and statistics courses and a gist of core concepts that I learned from there. 
 
