@@ -5,7 +5,7 @@ This link gives an idea how to prepare for this cerfication
 https://towardsdatascience.com/how-i-prepared-for-the-aws-machine-learning-speciality-certification-10834924d192
 
 ## 5 best courses
-- [ ]  AWS Certified Machine Learning Specialty 2022 [Udemy]
+- [ ]  AWS Certified Machine Learning Specialty 2022 [Udemy]\\
     Course Duration: 11 hours
     Course Rating: 4.6 stars out of 5
     Course Instructor: Frank Kane
