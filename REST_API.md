@@ -12,3 +12,5 @@ An API key is an unique identifier (a string of letters and numbers) that is use
 - Embedded content: embedd twitter or instagram posts
 - Internal systems: communication between smaller components of a business
 
+
+https://blog.hubspot.com/website/what-is-rest-api
