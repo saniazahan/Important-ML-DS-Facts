@@ -1,4 +1,4 @@
-## DEPLOYING PYTORCH IN PYTHON VIA A REST API WITH FLASK
+## Deploying PyTorch in python via a REST API with flask
 
 
 
