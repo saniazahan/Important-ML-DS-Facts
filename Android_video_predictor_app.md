@@ -1,6 +1,8 @@
 ## Workflow
 - First create an android app that has a upload button
 - Need an account on AWS
+   sign up for an AWS account and create an AWS Identity and Access Management (IAM) admin user
+https://docs.aws.amazon.com/sagemaker/latest/dg/gs-set-up.html
   
 - Amazon S3 bucket is used to store data for training and testing  
   Follow the below tutorials
