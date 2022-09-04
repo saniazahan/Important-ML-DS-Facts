@@ -1,10 +1,27 @@
 ## Workflow
 - First create an android app that has a upload button
-- Need an account on cloud (AWS S3/Firebase) where the data will be stored
-Follow the below tutorials
+- Need an account on AWS
+  
+- Amazon S3 bucket is used to store data for training and testing  
+  Follow the below tutorials
+  
+  ### Choose File and Upload to Firebase Storage - Android Kotlin
+  https://www.youtube.com/watch?v=j11O6DvkePg
 
-### Choose File and Upload to Firebase Storage - Android Kotlin
-https://www.youtube.com/watch?v=j11O6DvkePg
+  ### AWS - Uploading a File To S3 - Android Kotlin
+  https://www.youtube.com/watch?v=qgrXMzFMHx4
+  
+- AWS amplify 
 
-### AWS - Uploading a File To S3 on Android Kotlin
-https://www.youtube.com/watch?v=qgrXMzFMHx4
+
+Bring your own model on AWS Sagemaker
+https://aws.amazon.com/blogs/machine-learning/bring-your-own-model-with-amazon-sagemaker-script-mode/
+https://aws.amazon.com/blogs/machine-learning/bring-your-own-deep-learning-framework-to-amazon-sagemaker-with-model-server-for-apache-mxnet/
+
+Amplify Libraries
+https://docs.amplify.aws/lib/q/platform/android/
+
+
+## Kotlin coroutines on Android
+A coroutine is a concurrency design pattern that you can use on Android to simplify code that executes asynchronously.
+https://developer.android.com/kotlin/coroutines
