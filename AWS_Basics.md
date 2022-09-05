@@ -9,8 +9,8 @@ Ways to interact with the AWS APIs
 ## AWS Identity and Access Management
 
 ## EC2 launch user data
-
-##!/bin/bash -ex
+"""
+#!/bin/bash -ex
 #Update yum
 yum -y update
 # Add node's source repo
@@ -28,5 +28,5 @@ cd /var/app/
 npm install
 # Start your app
 npm start
-
+"""
 
