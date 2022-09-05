@@ -14,7 +14,7 @@ https://docs.aws.amazon.com/sagemaker/latest/dg/gs-set-up.html
   https://www.youtube.com/watch?v=qgrXMzFMHx4
   
 - AWS amplify 
-
+https://www.youtube.com/watch?v=hyFmtK0OjfI
 
 Bring your own model on AWS Sagemaker
 https://aws.amazon.com/blogs/machine-learning/bring-your-own-model-with-amazon-sagemaker-script-mode/
