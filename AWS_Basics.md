@@ -10,7 +10,7 @@ Ways to interact with the AWS APIs
 
 ## EC2 launch user data
 
-#!/bin/bash -ex
+##!/bin/bash -ex
 #Update yum
 yum -y update
 # Add node's source repo
