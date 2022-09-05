@@ -30,3 +30,11 @@ npm install
 npm start
 """
 
+video url https://youtu.be/XI7R1W3PPbg
+
+#!/bin/bash
+yum update -y
+yum install -y httpd.x86_64
+systemctl start httpd.service
+systemctl enable httpd.service
+echo "Hello Sania from $(hostname -f)" > /var/www/html/index.html
