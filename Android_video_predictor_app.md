@@ -18,7 +18,7 @@ https://docs.aws.amazon.com/sagemaker/latest/dg/gs-set-up.html
    Under Gradle Scripts, open build.gradle (Module: AppName).
 
    Add the following lines:
-   
+   ```
    android {
     compileOptions {
         // Support for Java 8 features
@@ -35,7 +35,7 @@ https://docs.aws.amazon.com/sagemaker/latest/dg/gs-set-up.html
     // Support for Java 8 features
     coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:1.1.5'
    }
-   
+   ```
    
 
    
