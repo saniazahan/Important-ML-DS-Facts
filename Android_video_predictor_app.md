@@ -52,8 +52,7 @@ https://docs.aws.amazon.com/sagemaker/latest/dg/gs-set-up.html
    ```
    Now sync gradle, it will download all the necessary libraries
    
-   Add the following the function in MainActivity
-   
+   Add the following the function in MainActivity   
    ```
    private fun configureAmplify(){
         // function to configure amplify and add the authentications
@@ -66,14 +65,12 @@ https://docs.aws.amazon.com/sagemaker/latest/dg/gs-set-up.html
             Log.i("AssistMe", "Could not initialize Amplify", error)
         }
     }
-    ```
-    
-    Add the call in onCreate function
-    ```
-    configureAmplify()
-    ```
-    
+   ```
    
+   Add the call in onCreate function
+   ```
+   configureAmplify()
+   ```
 
    
    
