@@ -36,6 +36,43 @@ https://docs.aws.amazon.com/sagemaker/latest/dg/gs-set-up.html
     coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:1.1.5'
    }
    ```
+  One of the dependencies uses the kotlin version of the viewmodel library whereas the code uses the java version. Specify both to enforce the latest version for all dependencies:
+   
+   ```
+   def lifecycle_version = "2.4.0"
+   implementation "androidx.lifecycle:lifecycle-viewmodel:$lifecycle_version"
+   implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
+   ```
+   
+   for access to S3 bucket and authentication
+   ```
+   def amplify_version = "1.36.5"
+   implementation "com.amplifyframework:aws-storage-s3:$amplify_version"
+   implementation "com.amplifyframework:aws-auth-cognito:$amplify_version"
+   ```
+   Now sync gradle, it will download all the necessary libraries
+   
+   Add the following the function in MainActivity
+   
+   ```
+   private fun configureAmplify(){
+        // function to configure amplify and add the authentications
+        try {
+            Amplify.addPlugin(AWSCognitoAuthPlugin())
+            Amplify.addPlugin(AWSS3StoragePlugin())
+            Amplify.configure(applicationContext)
+            Log.i("AssistMe", "Initialized amplify")
+        } catch (error: AmplifyException){
+            Log.i("AssistMe", "Could not initialize Amplify", error)
+        }
+    }
+    ```
+    
+    Add the call in onCreate function
+    ```
+    configureAmplify()
+    ```
+    
    
 
    
