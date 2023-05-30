@@ -1,3 +1,8 @@
+## AWS Training and Certification Events
+
+https://aws.amazon.com/training/events/?get-certified-vilt-courses-cards.sort-by=item.additionalFields.startDateSort&get-certified-vilt-courses-cards.sort-order=asc&awsf.get-certified-vilt-courses-type=*all&awsf.get-certified-vilt-courses-series=*all&awsf.get-certified-vilt-locations=*all&awsf.get-certified-vilt-countries=*all&awsf.get-certified-vilt-languages=*all&awsf.get-certified-vilt-courses-level=*all&awsf.get-certified-vilt-courses-tech-category=*all
+
+
 ## Free AWS basic course
 https://explore.skillbuilder.aws/learn/course/1851/AWS%2520Technical%2520Essentials
 
